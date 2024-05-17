@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    background-color: rgb(26, 26, 26);
+}
+
+header{
+    height: 1000px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 60px;
+}
+
+.nav{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+    padding: 0;
+}
+
+ul li{
+    text-align: center;
+    list-style: none;
+    margin: 0.8% auto;
+    font-size: 16px;
+    font-family: 'Onest', Arial, sans-serif;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container p{
+    /* margin: 50px; */
+    text-align: center;
+    font-size: 30px;
+}
+
+.top{
+    display: flex;
+    width: 80%;
+}
+
+.left{
+    width: 60%;
+}
+
+.h1l{
+    text-align: left;
+    font-size: 100px;
+    margin: 20px;
+    font-family: 'BebasNeue', Arial, sans-serif;
+}
+
+span{
+   color: #1c1fd6;
+}
+
+.bottom{
+    display: flex;
+    width: 80%;
+}
+
+.block1{
+    margin: 5px;
+
+    width: 30%;
+    height: 400px;
+    padding: 0;
+}
+
+.block1 img{
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.block2{
+    margin: 5px;
+
+    width: 18%;
+    height: 400px;
+    padding: 0;
+}
+
+.block2 img{
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.block3{
+    margin: 5px;
+    width: 20%;
+    height: 400px;
+    padding: 0;
+    /* background-image: url("Project/Great England Club.png"); */
+}
+
+.block3 img{
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.slider-container{
+    display: flex;
+    overflow: hidden;
+}
+
+.slider-container h1{
+    color: #1c1fd6;
+    margin-left: 20px;
+}
+
+.slide{
+    flex: 0 0 100%;
+}
+
+.slide img{
+    /* width: 350px; */
+    border-radius: 30px;
+    margin-left: 450px;
+    height: 450px;
+}
+
+.btn_left{
+    margin-top: 20px;
+}
+
+.btn_right{
+    margin-top: 20px;
+}
+
+.divcenter{
+    width: 80%;
+    /* background-color: white;
+    border-radius: 80px; */
+}
+
+.containerblock{
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.block5{
+    display: flex;
+    padding: 50px 0;
+}
+
+.bl5-left{
+    width: 70%;
+}
+    
+.bl5-left h2{
+    text-align: left;
+    font-size: 80px;
+    font-family: 'BebasNeue', Arial, sans-serif;
+    margin: 0;
+}
+
+.bl5-right{
+    width: 30%;
+}
+
+.bl5-right p{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'BebasNeue', Arial, sans-serif;
+}
+
+.block6{
+    display: flex;
+}
+
+.border{
+    width: 25%;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 1%;
+    margin: 10px;
+}
+
+.border h4{
+    font-size: 25px;
+    font-family: 'BebasNeue', Arial, sans-serif;
+}
+
+.border h2{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'BebasNeue', Arial, sans-serif;
+}
+
+.border p{
+    font-size: 18px;
+    font-family: 'BebasNeue', Arial, sans-serif;
+    font-weight: 200;
+}
